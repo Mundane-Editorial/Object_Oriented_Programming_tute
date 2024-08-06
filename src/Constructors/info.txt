@@ -1,0 +1,16 @@
+Constructos are methods having same name as of class that are called automatically when a program is executed.
+
+> There are 3 types of constructors in java
+    1. Default constructor
+    2. parameterized consructor
+    3. copy contructor
+
+1. Default constructor  : A default constructor is a constructor that Java provides automatically if you don't define
+any constructors in your class. It doesn’t take any arguments and initializes object fields with default values.
+
+2. Parameterized constructor : A parameterized constructor allows you to pass values to initialize the object’s fields
+when creating an instance. This constructor takes parameters and uses them to set the object's properties.
+
+3. Copy Constructor : A copy constructor is used to create a new object as a copy of an existing object. It takes
+another object of the same class as an argument and copies its field values to the new object.
+
