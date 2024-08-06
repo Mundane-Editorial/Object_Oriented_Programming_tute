@@ -1,0 +1,46 @@
+4 pillars of OOPs are :
+    1. Abstraction
+    2. Encapsulation
+    3. Polymorphism
+    4. Inheritence
+
+------------------------------------------------------------------------------------------------------------------------
+
+1. Abstraction :
+> Abstraction is a technique of providinf only the essential details to the user by hiding the
+unnecessary or irrelevant details of an entity.
+> Abstraction enables us to provide a simple interface to a user without asking for complex details to perform an action.
+
+Advantage : This helps in reducing the operational complexity at the user-end.
+
+
+CAN BE ACHIEVED BY USING ABSTRACT CLASS AND INTERFACES
+
+------------------------------------------------------------------------------------------------------------------------
+
+2. Encapsulation :
+Encapsulation is a core principle of object-oriented programming that involves bundling data and methods into a single
+unit, typically a class, while controlling access to its internal state. It enhances data security by restricting direct
+access to internal variables, improves maintainability by separating implementation from the interface, and promotes
+code reusability and flexibility. By exposing only necessary details and hiding complex internal workings,
+encapsulation supports abstraction and ensures that objects interact in a controlled and predictable manner.
+
+CAN BE ACCESSED USING ACCESS MODIFIERS : PUBLIC PRIVATE PROTECTED
+
+------------------------------------------------------------------------------------------------------------------------
+
+3. Polymorphism :
+> It is a feature that allows you to perform an action in multiple or different ways.
+> There are two types of polymorphism
+    1. Method overloading - Static Polymorphism (static binding)
+    2. Method overriding - Dynamic Polymorphism (Dynamic Binding)
+
+Advantage : Programmer code can be reused via polymorphism
+
+------------------------------------------------------------------------------------------------------------------------
+
+4. Inheritance :
+> Inheritence is a technique of acquiring the properties of another class having features in common.
+> It is also known as a child parent relationship where a child inherits the properties of its parent.
+
+Advantage : It allows us to increase the reusabilty and reduce the duplication of code.
