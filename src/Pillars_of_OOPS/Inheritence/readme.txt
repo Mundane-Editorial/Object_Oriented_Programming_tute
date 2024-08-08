@@ -49,6 +49,8 @@ terminologies :
 > Multi level Inheritance
 > Hierarchical Inheritance
 > Hybrid Inheritence
+>>  Multiple Inheritance   :  Although it exists but is not supported by the java because of ambiguity issues.
+                              This issue can be fixed by using interfaces.
 
 1. Single Inheritance :
     In single inheritance, a sub-class is derived from only one super class. It inherits the properties and behavior of
