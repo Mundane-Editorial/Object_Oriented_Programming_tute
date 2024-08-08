@@ -56,3 +56,14 @@ terminologies :
 
       Employee -----------------------------> Executive
     (super class)                            (sub class)
+
+
+2. Multilevel Inheritance:
+    In multi-level inheritance, a class is derived from a class which is also derived from another class is called
+    multi-level inheritance.
+    In simple words, we can say that a class that has more than one parent class is called multi-level inheritance. Note
+    that the classes must be at different levels. Hence, there exists a single base class and single derived class but
+    multiple intermediate base classes.
+
+      Student ---------------> Marks --------------------> sports
+      (super)                  (sub)                      (derived)
