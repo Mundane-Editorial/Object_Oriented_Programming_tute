@@ -30,3 +30,29 @@ terminologies :
 * Has-A Relationship
     eg:                               (Has-A)
             car_class -------------------^----------------> Engine_class
+
+
+
+***************************************************  POINTS TO REMEMBER ***********************************************
+
+    > A constructor can't be inherited in java
+    > Private members do not get inherited.
+    > Cyclic Inheritence is not permitted in java
+    > assign parent reference to child objects
+    > constructors get executed because of super() present in the constructor.
+
+
+************************************************************************************************************************
+
+                                TYPES OF INHERITANCE IN JAVA
+> Single Inheritence
+> Multi level Inheritance
+> Hierarchical Inheritance
+> Hybrid Inheritence
+
+1. Single Inheritance :
+    In single inheritance, a sub-class is derived from only one super class. It inherits the properties and behavior of
+    a single-parent class. Sometimes it is also known as simple inheritance.
+
+      Employee -----------------------------> Executive
+    (super class)                            (sub class)
