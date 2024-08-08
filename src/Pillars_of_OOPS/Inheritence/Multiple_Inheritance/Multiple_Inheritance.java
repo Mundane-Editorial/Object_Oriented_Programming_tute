@@ -1,4 +1,4 @@
-package Pillars_of_OOPS.Inheritence;
+package Pillars_of_OOPS.Inheritence.Multiple_Inheritance;
 
 class A{
     void show(){
@@ -18,16 +18,16 @@ class C extends B{
     }
 }
 
-class D extends B, C{            // error : cannot extend multiple classes
-    void show(){
-        System.out.println("Class D show");
-    }
-}
+//class D extends B, C{            // error : cannot extend multiple classes
+//    void show(){
+//        System.out.println("Class D show");
+//    }
+//}
 
 public class Multiple_Inheritance {
     public static void main(String[] args) {
-        D obj = new D();
-        obj.show(); //here's the ambiguity : now the compiler is confused that which show() of a class will be executed
+//        D obj = new D();
+//        obj.show(); //here's the ambiguity : now the compiler is confused that which show() of a class will be executed
     }
 }
 
