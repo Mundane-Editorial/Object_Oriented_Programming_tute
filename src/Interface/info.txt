@@ -1,0 +1,39 @@
+Interface :
+   An interfaces a set of abstract methods you would want your class to implement. These methods are public and abstract
+   These methods are public and abstract by default, and any class implementing your interface will need to provide
+   implementations of those methods.
+
+   intefaces are used to achieve abstraction and implement multiple inheritance.
+
+
+>> Can be implemented using Implements.
+>> Interface doesn't have objects. ONLY classes can have objects.
+
+
+========================================================================================================================
+                                    >> POITNS TO REMEMBER <<
+
+1. An Interface can be used when we want to achieve 100% abstraction. On the other-hand, abstract classes can be used to.
+   achieve anything between 0-100% abstraction.
+2. An interface cannot have constructors because we cannot create objects of an interface.
+3. If you want a class to achieve multiple inheritance, there is only one way : interfaces.
+4. If an interface is made private or if the methods in it are made private or protected, then a compilation error will
+   be thrown.
+
+
+========================================================================================================================
+                                    >> Advantages of interfaces in java <<
+
+1. Interface can be enforce a contract - that is, Provide a specification that classes must implement certain methods if
+   they want to use that interface.
+2. Interface are used to achieve multiple inheritance.
+3. Interfaces can be used to achieve loose coupling - with interfaces we can ensure that changes in one class do not
+   affect other classes.
+
+
+========================================================================================================================
+                                    >> DIS - Advantages of interfaces in java <<
+
+1. Interfaces expose their member variables since they must be oublic.
+2. Since an interface can be thought of as a contract implemented by multiple classes, in certain cases, modifying the
+   interface could lead to unpredictable behavior fo the classes implementing them.
