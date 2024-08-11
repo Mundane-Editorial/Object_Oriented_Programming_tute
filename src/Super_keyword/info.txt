@@ -1,0 +1,15 @@
+super keyword :
+the "super" keyword is used to refer to the superclass of the current object. that means whenever you want to execute
+a method present in parent class directly, you can use super keyword.
+
+========================================================================================================================
+                                  IT CAN BE USED IN 3 DIFFERENT WAYS.
+
+1. to invoke parent class variable
+2. to invoke parent class method
+3. to involve parent class constructor
+
+will be used where we are having same method names in classes.
+
+
+
