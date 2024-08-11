@@ -14,7 +14,7 @@ class dog extends animal{
     }
 }
 
-public class super_keyword{
+public class super_keyword_variable{
     public static void main(String[] args) {
         dog obj = new dog();
         obj.printcolor();
