@@ -1,0 +1,20 @@
+ *  when we have to deal with number of arguments, It is method Overloading.
+ *  when we are dealing with the function body. then it is known as method overriding.
+
+========================================================================================================================
+
+METHOD OVER-RIDING : If a subclass provides the specific implementation of the method that has been declared by one of
+                     its parent class, it is known as method overriding.
+
+========================================================================================================================
+
+* Method over-riding is used to provide the specific implementation of a method which is already provided by its
+  superclass.
+* It is used for runtime polymorphism.
+
+========================================================================================================================
+                            RULES FOR JAVA METHOD OVERRIDING
+
+1. The method must have same name as in the parent class.
+2. The method must have same parameter as in the parent class.
+3. There must be an IS-A relationship.(Inheritance)
