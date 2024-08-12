@@ -2,12 +2,12 @@
     1. Abstraction
     2. Encapsulation
     3. Polymorphism
-    4. Inheritence
+    4. Inheritance
 
 ------------------------------------------------------------------------------------------------------------------------
 
 1. Abstraction :
-> Abstraction is a technique of providinf only the essential details to the user by hiding the
+> Abstraction is a technique of providing only the essential details to the user by hiding the
 unnecessary or irrelevant details of an entity.
 > Abstraction enables us to provide a simple interface to a user without asking for complex details to perform an action.
 
@@ -40,7 +40,7 @@ Advantage : Programmer code can be reused via polymorphism
 ------------------------------------------------------------------------------------------------------------------------
 
 4. Inheritance :
-> Inheritence is a technique of acquiring the properties of another class having features in common.
+> Inheritance is a technique of acquiring the properties of another class having features in common.
 > It is also known as a child parent relationship where a child inherits the properties of its parent.
 
-Advantage : It allows us to increase the reusabilty and reduce the duplication of code.
+Advantage : It allows us to increase the reusability and reduce the duplication of code.
