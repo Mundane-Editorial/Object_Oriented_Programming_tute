@@ -16,4 +16,46 @@ Polymorphism : Polymorphism in Java is a concept by which we can perform a singl
 
 
 ========================================================================================================================
+                    TYPES OF POLYMORPHISM IN JAVA
 
+2 types : 1. Runtime polymorphism   (it is slow : it is not preloaded in the memory)
+          2. Compile Time           (it is fast : it is already loaded in the memory during compilation of the program)
+
+Runtime Polymorphism : Method overriding AKA Dynamic binding or late binding.
+                       (method with same name but different arguments)
+                     > It is called runtime polymorphism because compiler reads the data inside the method only when that
+                       particular function is called.
+
+
+
+Compile time Polymorphism : Method overloading AKA static binding or early binding.
+                            (method with same name and same arguments but have different functionality)
+                          > It is called compiler time polymorphism because function name, number of arguments, datatype
+                            of arguments  are checked during the compilation of the program.
+
+
+========================================================================================================================
+                            COMPILE TIME POLYMORPHISM
+
+1. In compile time polymorphism, the call is resolved by the compiler.
+2. It is also known as static binding, Early binding and overloading as well.
+3. Method overloading is the compiler-time polymorphism where more than one methods share the same name with different
+   parameters or signatures and different return type.
+4. It is achieved by function overloading and operator overloading.
+5. It provides fast execution because the method that needs to be executed is known early at the compile time.
+6. Compile time polymorphism is less flexible as  all things executed is known early at the compile time.
+7. Inheritance is not involved.
+
+
+========================================================================================================================
+                            RUNTIME POLYMORPHISM
+
+1. In Run time polymorphism, the call is not resolved by the compiler.
+2. It is known as Dynamic binding, late binding and overriding as well.
+3. Method overriding is the runtime polymorphism having the same method with same parameters or signature but associated
+   with compared, different classes.
+4. It is achieved by virtual functions and pointers.
+5. It provides slow execution as compare to early binding because the method that needs to be executed is knownat the
+   runtime.
+6. Runtime polymorphism is more flexible as all things execute at run time.
+7. Inheritance is involved.
